@@ -56,6 +56,7 @@ PRIVATE extern const sai_udf_api_t              redis_udf_api;
 PRIVATE extern const sai_virtual_router_api_t   redis_virtual_router_api;
 PRIVATE extern const sai_vlan_api_t             redis_vlan_api;
 PRIVATE extern const sai_wred_api_t             redis_wred_api;
+PRIVATE extern const sai_p4_ext_api_t           redis_p4_ext_api;
 
 PRIVATE extern std::shared_ptr<sairedis::Sai>   redis_sai;
 

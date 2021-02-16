@@ -83,7 +83,8 @@ libsairedis_la_SOURCES = \
 						 sai_redis_udf.cpp \
 						 sai_redis_virtual_router.cpp \
 						 sai_redis_vlan.cpp \
-						 sai_redis_wred.cpp
+						 sai_redis_wred.cpp \
+						 sai_redis_p4ext.cpp
 
 libSaiRedis_a_CPPFLAGS = $(DBGFLAGS) $(AM_CPPFLAGS) $(CFLAGS_COMMON)
 
