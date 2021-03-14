@@ -76,8 +76,8 @@ static sai_apis_t redis_apis = {
     API(debug_counter),
     API(macsec),
     API(system_port),
+    API(p4ext),
     API(bmtor),
-    API(p4_ext),
 };
 
 static_assert((sizeof(sai_apis_t)/sizeof(void*)) == (SAI_API_EXTENSIONS_MAX - 1));

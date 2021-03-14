@@ -111,7 +111,8 @@ libsaivs_la_SOURCES = \
 					  sai_vs_udf.cpp \
 					  sai_vs_virtual_router.cpp \
 					  sai_vs_vlan.cpp \
-					  sai_vs_wred.cpp
+					  sai_vs_wred.cpp \
+					  sai_vs_p4ext.cpp
 
 libSaiVS_a_CPPFLAGS = $(DBGFLAGS) $(AM_CPPFLAGS) $(CFLAGS_COMMON)
 
